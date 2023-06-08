@@ -1,0 +1,16 @@
+{
+  "server": {
+    "address": "example.com:1997",
+    "pid": "/var/run/acciopassword.pid"
+    "tls": {
+      "certificate": "/path/to/your/certificate.pem",
+      "key": "/path/to/your/key.pem",
+      "version": "1.3"
+    },
+  },
+  "database": {
+    "dsn": "file:/path/to/your/sqlite.db"
+  },
+  "privacyPolicy": "https://example.com/privacy",
+  "termsOfService": "https://example.com/terms"
+}
